@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Services = () => {
+const Home = () => {
   return (
 
     <div>
-    <section class="bg-gray-50 dark:bg-gray-800">
+         {/* Work With Tools Section   */}
+        <section class="bg-gray-50 dark:bg-gray-800">
     <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
          {/*   Row  */}
         <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
@@ -72,10 +73,10 @@ const Services = () => {
             </div>
         </div>
     </div>
-  </section>
- {/*   End block  */}
- {/*   Start block  */}
-<section class="bg-white dark:bg-gray-900">
+        </section>
+
+        {/*   Trusted Worldwide Section */}
+        <section class="bg-white dark:bg-gray-900">
     <div class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
         <div class="col-span-2 mb-8">
             <p class="text-lg font-medium text-purple-600 dark:text-purple-500">Trusted Worldwide</p>
@@ -119,10 +120,10 @@ const Services = () => {
             </div>
         </div>
     </div>
-  </section>
- {/*   End block  */}
- {/*   Start block  */}
-<section class="bg-gray-50 dark:bg-gray-800">
+        </section>
+ 
+        {/*   Team Section  */}
+        <section class="bg-gray-50 dark:bg-gray-800">
     <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
         <figure class="max-w-screen-md mx-auto">
             <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -140,11 +141,10 @@ const Services = () => {
             </figcaption>
         </figure>
     </div>
-  </section>
- {/*   End block  */}
+        </section>
 
-   {/*   Start block  */}
-   <section class="bg-white dark:bg-gray-900">
+        {/*   Business Teams Section  */}
+        <section class="bg-white dark:bg-gray-900">
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
             <div class="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
                 <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Designed for business teams like yours</h2>
@@ -268,10 +268,10 @@ const Services = () => {
                 </div>
             </div>
         </div>
-      </section>
-     {/*   End block  */}
-     {/*   Start block  */}
-    <section class="bg-white dark:bg-gray-900">
+        </section>
+   
+       {/*   Frequently Question Section */}
+       <section class="bg-white dark:bg-gray-900">
         <div class="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-24 lg:px-6 ">
             <h2 class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">Frequently asked questions</h2>
             <div class="max-w-screen-md mx-auto">
@@ -337,10 +337,10 @@ const Services = () => {
                 </div> 
             </div>               
         </div>
-    </section>
-     {/*   End block  */}
-     {/*   Start block  */}
-    <section class="bg-gray-50 dark:bg-gray-800">
+       </section>
+    
+       {/*    Free Trial Today Section  */}
+       <section class="bg-gray-50 dark:bg-gray-800">
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
             <div class="max-w-screen-sm mx-auto text-center">
                 <h2 class="mb-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white">Start your free trial today</h2>
@@ -348,10 +348,10 @@ const Services = () => {
                 <Link to="#" class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Free trial for 30 days</Link>
             </div>
         </div>
-    </section>
- </div>
+       </section>
+    </div>
  
 );
 };
 
-export default Services;
+export default Home;
